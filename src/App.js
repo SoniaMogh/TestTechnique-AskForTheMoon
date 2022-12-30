@@ -21,10 +21,8 @@ const App = () => {
       `}>
         Bienvenue dans Ask for movies
       </header>
-      <main className={css`
-        min-height: calc(100vh - 150px);
-        display: flex;
-      `}>
+
+      <main>
         <MoviePage />
       </main>
     </div>
