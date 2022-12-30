@@ -21,7 +21,16 @@ const App = () => {
       `}>
         Bienvenue dans Ask for movies
       </header>
+      <div id="Nav" className="overlay">
 
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content" id="overlay-content"></div>
+
+      </div>
+      <li className="translate" data-role="tooltip">
+        <div>fr</div>
+      </li>
       <main>
         <MoviePage />
       </main>
